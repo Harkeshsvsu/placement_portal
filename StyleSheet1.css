@@ -1,0 +1,144 @@
+﻿.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+    .footerlinks:hover {
+        color: #ffd800;
+    }
+
+#footer1 {
+    background-color: black;
+    color:white;
+
+
+}
+li{
+    text-decoration-color:white;
+}
+
+#footer2 {
+    background:black ;
+}
+
+
+}
+#div1{
+    background-color:orangered;
+}
+#top-navbar{
+    background-color:orangered;
+}
+.bd-left {
+    border-left: 3px solid whitesmoke;
+}
+.fixed{
+    height:250px;
+    width:40px;
+    background-color:orangered;
+    position:fixed;
+    top:250px;
+}
+.bg{
+    background-color:red;
+}
+#box {
+    height: 350px;
+    width: 350px;
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 3px 3px 12px black;
+    margin: 50px;
+    transition: 1s;
+}
+
+img {
+    width: 100%;
+    height: 70%;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.div-align {
+    height: 350px;
+    width: 350px;
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 3px 3px 12px black;
+    margin: 50px;
+    transition: 0.5s;
+    text-align: center;
+    color: blue;
+}
+
+.div-align:hover {
+    height: 355px;
+    width: 355px;
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 14px;
+    box-shadow: 5px 5px 16px black;
+    margin: 50px;
+    shape-image-threshold: initial;
+}
+.left-shift {
+    position: relative;
+    right: 600px;
+}
+.centre{
+    text-align:center;
+
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.visit{
+    height:500px;
+    width:300px;
+}
+   
+
