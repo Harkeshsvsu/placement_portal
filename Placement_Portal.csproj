@@ -2138,6 +2138,7 @@
     <Content Include="fontawesome\svgs\solid\yen-sign.svg" />
     <Content Include="fontawesome\svgs\solid\yin-yang.svg" />
     <Content Include="fontawesome\svgs\solid\z.svg" />
+    <Content Include="hello_user.aspx" />
     <Content Include="helpline.aspx" />
     <Content Include="img\B.voc_robotics.jpg" />
     <Content Include="img\concentrix.jpg" />
@@ -2162,6 +2163,13 @@
     <Content Include="placement_team.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="hello_user.aspx.cs">
+      <DependentUpon>hello_user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hello_user.aspx.designer.cs">
+      <DependentUpon>hello_user.aspx</DependentUpon>
+    </Compile>
     <Compile Include="helpline.aspx.cs">
       <DependentUpon>helpline.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
